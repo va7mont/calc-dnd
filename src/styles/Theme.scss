@@ -1,0 +1,12 @@
+$theme-colors: (
+  "primary": #5D5FEF,
+  "grey": #F3F4F6,
+  "grey-10": #E2E3E5,
+  "grey-20": #6B7280,
+  "grey-30": #C4C4C4,
+  "grey-40": #4D5562,
+);
+
+$font-size-base: 0.8rem;
+
+@import "node_modules/bootstrap/scss/bootstrap";
