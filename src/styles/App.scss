@@ -1,7 +1,13 @@
+@import url("./Fonts.scss");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter-Medium", sans-serif;
 }
 
 input:focus {
@@ -25,8 +31,26 @@ button:active {
   border-style: dashed !important;
 }
 
+.cursor-move {
+  cursor: move;
+}
+
 .blocks-placeholder {
   min-height: 600px;
+}
+
+.divider {
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    background-image: url("../assets/images/divider.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: -10px;
+    right: -10px;
+    height: 10px;
+  }
 }
 
 .switches-container {

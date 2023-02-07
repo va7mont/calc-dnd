@@ -2,8 +2,19 @@ import { Container, Row, Col } from "react-bootstrap";
 import newBlock from '../assets/images/add_new_block.svg';
 
 export default function ContainerPlaceholder() {
+
+  const onDragEnter = (event) => {
+    event.preventDefault();
+    event.target.classList.add("bg-blue");
+  }
+
+  const onDragLeave = (event) => {
+    event.preventDefault();
+    event.target.classList.remove("bg-blue");
+  }
+
   return (
-    <Container fluid className='blocks-placeholder border border-2 border-dashed border-grey-30 px-0'>
+    <Container onDragEnter={onDragEnter} onDragLeave={onDragLeave} fluid className="blocks-placeholder border border-2 border-dashed border-grey-30 px-0">
       <Row className='blocks-placeholder justify-content-center align-items-center m-0'>
         <Col lg="auto" className='text-center px-0'>
           <img src={newBlock} className='img-fluid mb-3' alt="new block" />
