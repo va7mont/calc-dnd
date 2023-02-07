@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ucell-test-task-builded/static/css/main.4973d619.css",
+    "main.js": "/ucell-test-task-builded/static/js/main.f474c270.js",
+    "static/media/add_new_block.svg": "/ucell-test-task-builded/static/media/add_new_block.ff2a0d409c14819260b08f919e659b64.svg",
+    "index.html": "/ucell-test-task-builded/index.html",
+    "main.4973d619.css.map": "/ucell-test-task-builded/static/css/main.4973d619.css.map",
+    "main.f474c270.js.map": "/ucell-test-task-builded/static/js/main.f474c270.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4973d619.css",
+    "static/js/main.f474c270.js"
+  ]
+}
