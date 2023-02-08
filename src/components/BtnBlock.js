@@ -5,7 +5,7 @@ export default function BtnBlock(props) {
     <Container fluid className="px-0">
       <Row className='m-0'>
         {props.buttons.map(btn => (
-          <Col lg={btn.size} className='p-2' key={btn.label}>
+          <Col xs={btn.size} className='p-2' key={btn.label}>
             <Button
               className={`
                 ${btn.className ? btn.className : ""}
