@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ucell-test-task/static/css/main.673ee64b.css",
-    "main.js": "/ucell-test-task/static/js/main.f64e34d6.js",
-    "static/media/Inter-ExtraBold.ttf": "/ucell-test-task/static/media/Inter-ExtraBold.e4a4cb7133001f282a15.ttf",
-    "static/media/Inter-Medium.ttf": "/ucell-test-task/static/media/Inter-Medium.e7231ba33760832432b8.ttf",
-    "static/media/add_new_block.svg": "/ucell-test-task/static/media/add_new_block.ff2a0d409c14819260b08f919e659b64.svg",
-    "index.html": "/ucell-test-task/index.html",
-    "static/media/divider.svg": "/ucell-test-task/static/media/divider.9ea9e9f8fcda458ea456.svg",
-    "main.673ee64b.css.map": "/ucell-test-task/static/css/main.673ee64b.css.map",
-    "main.f64e34d6.js.map": "/ucell-test-task/static/js/main.f64e34d6.js.map"
+    "main.css": "/calc-dnd/static/css/main.55045493.css",
+    "main.js": "/calc-dnd/static/js/main.0c67d01e.js",
+    "static/media/Inter-ExtraBold.ttf": "/calc-dnd/static/media/Inter-ExtraBold.e4a4cb7133001f282a15.ttf",
+    "static/media/Inter-Medium.ttf": "/calc-dnd/static/media/Inter-Medium.e7231ba33760832432b8.ttf",
+    "static/media/add_new_block.svg": "/calc-dnd/static/media/add_new_block.ff2a0d409c14819260b08f919e659b64.svg",
+    "index.html": "/calc-dnd/index.html",
+    "static/media/divider.svg": "/calc-dnd/static/media/divider.9ea9e9f8fcda458ea456.svg",
+    "main.55045493.css.map": "/calc-dnd/static/css/main.55045493.css.map",
+    "main.0c67d01e.js.map": "/calc-dnd/static/js/main.0c67d01e.js.map"
   },
   "entrypoints": [
-    "static/css/main.673ee64b.css",
-    "static/js/main.f64e34d6.js"
+    "static/css/main.55045493.css",
+    "static/js/main.0c67d01e.js"
   ]
 }
